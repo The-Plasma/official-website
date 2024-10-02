@@ -651,7 +651,7 @@ html, body{
     overflow: hidden;
 }
 .page8{
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     background-color: #fff;
 }
@@ -1016,8 +1016,16 @@ footer .footer-bottom h1 span{
         height: 70vh !important;
     }
 
+    .page8 {
+        height: 40vh !important;
+    }
+
+    .swiper {
+        height: 32vh !important;
+    }
+
     .page9 {
-        height: 50vh !important;
+        height: 40vh !important;
     }
 }
 
@@ -1069,5 +1077,9 @@ footer .footer-bottom h1 span{
     .avatar{
         width: 30vw;
         height: 30vw;
+    }
+
+    .marquee {
+        height: 50vh !important;
     }
 }

@@ -265,17 +265,25 @@ closeBtn.addEventListener('click',() => {
 })
 
 }
-function swiper(){
+function swiper() {
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 5,
+    slidesPerView: 1, // Default (for mobile)
     spaceBetween: 10,
     loop: true,
     autoplay: {
       delay: 600,
       disableOnInteraction: false,
     },
+    breakpoints: {
+      // When the window width is >= 768px (tablet and desktop)
+      768: {
+        slidesPerView: 3, // 3 slides for desktop
+        spaceBetween: 20, // You can adjust the space between slides if needed
+      }
+    }
   });
 }
+
 function page3TextAnim(){
   gsap.from('.page3 .page3-text h1  ',{
     y:100,
