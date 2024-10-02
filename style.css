@@ -294,6 +294,14 @@ html, body{
     font-size: 22vw;
     font-family: rejo;
 }
+
+@media only screen and (max-width: 768px) {
+    .page1 .inner-content h1 {
+        position: relative !important;
+        bottom: 10vh;
+    }
+}
+
 .page1 .inner-content h1 span{
     display: inline-block;
 }
