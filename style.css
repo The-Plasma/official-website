@@ -1004,4 +1004,9 @@ footer .footer-bottom h1 span{
     .page9 .page9-text h1 {
         font-size: 5vw;
     }
+
+
+    .page6 svg {
+        width: 67vw !important;
+    }
 }
