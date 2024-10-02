@@ -535,6 +535,7 @@ html, body{
     left: 50%;
     transform: translate(-50%,-50%);
     height: 90%;
+    width: 95vw;
 }
 .page6 .crsr{
     height: 7vw;
@@ -890,4 +891,10 @@ footer .footer-bottom h1 span{
    font-size: 19vw;
    margin-top: -3.2vw;
    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .second-two {
+        display: none !important;
+    }
 }
