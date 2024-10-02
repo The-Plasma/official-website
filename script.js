@@ -267,7 +267,7 @@ closeBtn.addEventListener('click',() => {
 }
 function swiper() {
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1, // Default (for mobile)
+    slidesPerView: 1,
     spaceBetween: 10,
     loop: true,
     autoplay: {
@@ -275,10 +275,9 @@ function swiper() {
       disableOnInteraction: false,
     },
     breakpoints: {
-      // When the window width is >= 768px (tablet and desktop)
       768: {
-        slidesPerView: 3, // 3 slides for desktop
-        spaceBetween: 20, // You can adjust the space between slides if needed
+        slidesPerView: 3,
+        spaceBetween: 20,
       }
     }
   });

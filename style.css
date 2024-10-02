@@ -1029,9 +1029,6 @@ footer .footer-bottom h1 span{
     }
 }
 
-
-
-
 .marquee {
     margin: 0;
     padding: 0;
@@ -1052,7 +1049,7 @@ footer .footer-bottom h1 span{
 
 @keyframes marquee {
     from { transform: translateX(0); }
-    to { transform: translateX(-50%); } /* -50% to cycle through half of the track width */
+    to { transform: translateX(-50%); }
 }
 
 .content {
@@ -1065,10 +1062,9 @@ footer .footer-bottom h1 span{
     height: 20vw;
     border-radius: 50%;
     margin: 0 20px;
-    object-fit: cover; /* Ensure the image fits the circle */
+    object-fit: cover;
 }
 
-/* Pause animation on hover */
 .marquee:hover .track {
     animation-play-state: paused;
 }
