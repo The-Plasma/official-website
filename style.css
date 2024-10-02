@@ -269,6 +269,11 @@ html, body{
     font-weight: lighter;
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+    .inner-content nav a {
+        font-size: 3vw;
+    }
+}
 .inner-content nav #menu{
     position: relative;
 }
@@ -904,5 +909,99 @@ footer .footer-bottom h1 span{
 @media only screen and (max-width: 768px) {
     .second-two {
         display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .menu-sec .vid video {
+        width: auto  !important;
+        height: 15vh  !important;
+        /* border-radius: 8px; */
+    }
+
+    .menu-sec {
+        align-items: start !important;
+    }
+
+    .menu-sec .vid {
+        height: 23vh !important;
+    }
+
+    .menu.active {
+        height: 41vh !important;
+    }
+
+    .menu-sec {
+        height: 25vh !important;
+    }
+
+    .menu-header {
+        height: 40px;
+        width: 100vw;
+        display: flex;
+        align-items: start !important;
+        justify-content: space-between;
+        padding: 0vw 3vw;
+        margin-top: -1vw !important;
+    }
+
+    .menu-header a {
+        font-size: 3.5vw !important;
+    }
+
+
+
+
+
+
+    .page2 .page2-bottom .btm-text h2 span {
+        font-size: 8vw !important;
+    }
+
+    .page2 .page2-top h3 {
+        font-size: 3vw;
+    }
+
+    .page3 .page3-text h1 {
+        font-size: 8vw;
+    }
+
+    .page3 .page3-text h4 {
+        font-size: 5vw;
+    }
+
+    .page5 .page5-bottom .btm-text h2 span {
+        font-size: 8vw;
+    }
+
+    .page5 .page5-top h3 {
+        font-size: 4.7vw;
+    }
+
+    .page7 .page7-top h3 {
+        font-size: 4.7vw;
+    }
+
+    .page7 .page7-bottom .btm-text h2 span {
+        font-size: 7.3vw;
+    }
+
+    .page9 .page9-text h4 {
+        font-size: 7vw;
+    }
+
+    .page9 .page9-text h1 {
+        font-size: 5vw;
     }
 }
