@@ -728,12 +728,13 @@ html, body{
     margin-right: auto;
 }
 .page9{
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     background-color: #fff;
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
 .page9 .page9-text{
     overflow: hidden;
@@ -1008,5 +1009,65 @@ footer .footer-bottom h1 span{
 
     .page6 svg {
         width: 67vw !important;
+    }
+
+
+    .page2 {
+        height: 70vh !important;
+    }
+
+    .page9 {
+        height: 50vh !important;
+    }
+}
+
+
+
+
+.marquee {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.track {
+    display: flex;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); } /* -50% to cycle through half of the track width */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin: 0 20px;
+    object-fit: cover; /* Ensure the image fits the circle */
+}
+
+/* Pause animation on hover */
+.marquee:hover .track {
+    animation-play-state: paused;
+}
+
+@media only screen and (max-width: 768px) {
+    .avatar{
+        width: 30vw;
+        height: 30vw;
     }
 }
