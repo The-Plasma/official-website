@@ -1,7 +1,5 @@
-# REJOUICE-CLONE
-It's a clone website of "rejouice.com"
+# THE PLASMA - theplasma.tech
 
 ## Techstack Usage: HTML - CSS - JavaScript (GSAP)
-### Clone only for educational purpose...
 
 
