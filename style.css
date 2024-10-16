@@ -728,7 +728,7 @@ html, body{
     margin-right: auto;
 }
 .page9{
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     background-color: #fff;
     display: flex;
@@ -1034,7 +1034,7 @@ footer .footer-bottom h1 span{
     padding: 0;
     position: relative;
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     overflow-x: hidden;
     display: flex;
     align-items: center;
