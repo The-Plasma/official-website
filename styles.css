@@ -1,0 +1,8 @@
+/* Add this CSS to your styles.css file */
+.header-text {
+    font-weight: bold;
+}
+
+.header-text:hover {
+    color: blue;
+}
